@@ -1,0 +1,31 @@
+extends: 
+  - airbnb
+  - plugin:react/recommended
+env:
+  browser: true
+  node: true
+  jquery: true
+  es6: true
+plugins:
+  - react
+  - jsx-a11y
+  - import
+rules:
+  import/extensions:
+    - 2
+  class-methods-use-this:
+    - 2
+  semi:
+    - 2
+    - never
+  no-unused-expressions:
+    - 2
+    - allowTernary: true
+  one-var:
+    - 2
+    - uninitialized: always
+  one-var-declaration-per-line:
+    - 0
+  brace-style:
+    - 2
+    - stroustrup
